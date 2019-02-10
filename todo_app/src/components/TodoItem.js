@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types';
+//https://www.youtube.com/watch?v=sBws8MSXN7A&t=1387s 51:18
 
 export class TodoItem extends Component {
     getStyle = () => {
         return {
-            backgroundColor:'##e3e3e3',
+            backgroundColor: this.props.todo.completed ? 'red' : 'white',
             padding: '1em',
             borderBottom: '1px #cccccc dotted',
             textDecoration: this.props.todo.completed ? 'line-through' : 'none'
