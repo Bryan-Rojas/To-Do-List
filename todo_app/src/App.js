@@ -19,6 +19,11 @@ class App extends Component {
         id: 3,
         title: 'Homework',
         completed: false
+      },
+      {
+        id: 4,
+        title: 'Go to sleep',
+        completed: false
       }
     ]
   }

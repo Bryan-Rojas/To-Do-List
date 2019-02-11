@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 export class TodoItem extends Component {
     getStyle = () => {
         return {
-            backgroundColor: this.props.todo.completed ? 'red' : 'white',
+            backgroundColor: this.props.todo.completed ? '#6363ee' : '#1fb2ee',
             padding: '1em',
             borderBottom: '1px #cccccc dotted',
             textDecoration: this.props.todo.completed ? 'line-through' : 'none'
